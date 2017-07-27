@@ -1,0 +1,28 @@
+/* form */
+.lsvr-form-row { padding: 20px 0; border-top: 1px solid rgba(255,255,255,1); border-bottom: 1px solid rgba(0,0,0,0.05) }
+.lsvr-form-row:first-child { padding-top: 10px; border-top: 0; }
+.sortable-body .lsvr-form-row:first-child { padding-top: 20px; }
+.lsvr-form-row:last-child { padding-top: 10px; border-bottom: 0; }
+.lsvr-form-row label,
+.lsvr-form-label { display: block; margin: 0 0 8px 0; font-weight: bold; font-size: 1em; color: #333; }
+.lsvr-form-row input,
+.lsvr-form-row textarea,
+.lsvr-form-row select { padding: 8px; border-radius: 5px; }
+.lsvr-form-row select { height: 36px; }
+.lsvr-form-description { margin: 0 0 8px 0; color: #777; }
+.lsvr-form-row .lsvr-checkbox-label { display: inline; margin-left: 6px; font-weight: normal; }
+
+/* WYSIWYG editor */
+.lsvr-field-editor { border-radius: 5px; background: #FFF; border: 1px solid rgba(0,0,0,0.1); }
+.lsvr-field-editor textarea { width: 100%; }
+.lsvr-field-editor .ToolBar { display: block; padding: 5px; clear: both; float: none; background: #ddd; width: 100%; border-radius: 5px 5px 0 0; }
+
+/* add shortcode button */
+div.jHtmlArea .ToolBar ul li a.addshortcode { background-position: -95px -32px; }
+
+/* tabs */
+.sortable-head { color: #333; border-bottom: 1px solid rgba(0,0,0,0.1); }
+
+
+body #blocks-archive .block { width: 110px; }
+#template-shortcode input { width: 160px!important; }
